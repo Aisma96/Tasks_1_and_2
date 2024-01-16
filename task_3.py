@@ -7,7 +7,7 @@ class BankAccount:
         BankAccount.total_account += 1
 
     def show_balance(self):
-        return f'Current balance: {self.balance}'
+        return f'{self.owner} current balance: {self.balance}'
 
     @classmethod
     def get_total_accounts(cls):
